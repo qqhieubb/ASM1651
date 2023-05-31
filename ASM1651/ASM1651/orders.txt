@@ -1,0 +1,4 @@
+Order ID: 1
+Product ID: 4, Name: Bac xiu, Quantity: 2, Subtotal: 36.44
+Product ID: 3, Name: Product 3, Quantity: 1, Subtotal: 30.99
+Product ID: 1, Name: Product 1, Quantity: 1, Subtotal: 10.99

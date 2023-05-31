@@ -1,0 +1,6 @@
+Order ID: 1
+Items:
+- Product ID: 4, Name: Bac xiu, Quantity: 1, Subtotal: 18.22
+- Product ID: 5, Name: Tra sua, Quantity: 1, Subtotal: 12.55
+- Product ID: 1, Name: Product 1, Quantity: 2, Subtotal: 21.98
+----------------------------------------

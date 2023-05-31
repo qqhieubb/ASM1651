@@ -1,0 +1,6 @@
+1,Product 1,10.99
+2,Product 2,20.99
+3,Product 3,30.99
+4,Bac xiu,18.22
+5,Tra sua,12.55
+7,Tra da,12.56
