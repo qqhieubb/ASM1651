@@ -1,0 +1,15 @@
+C:\Users\Dell\source\repos\ASM1651\ASM1651\bin\Debug\net6.0\ASM1651.exe
+C:\Users\Dell\source\repos\ASM1651\ASM1651\bin\Debug\net6.0\ASM1651.deps.json
+C:\Users\Dell\source\repos\ASM1651\ASM1651\bin\Debug\net6.0\ASM1651.runtimeconfig.json
+C:\Users\Dell\source\repos\ASM1651\ASM1651\bin\Debug\net6.0\ASM1651.dll
+C:\Users\Dell\source\repos\ASM1651\ASM1651\bin\Debug\net6.0\ASM1651.pdb
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.AssemblyInfo.cs
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.dll
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\refint\ASM1651.dll
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.pdb
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ASM1651.genruntimeconfig.cache
+C:\Users\Dell\source\repos\ASM1651\ASM1651\obj\Debug\net6.0\ref\ASM1651.dll
