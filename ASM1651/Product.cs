@@ -18,7 +18,7 @@
 
         public override string ToString()
         {
-            return $"ID: {Id}, Name: {Name}, Price: {Price:C}";
+            return $"ID: {Id}, Name: {Name}, Price: {Price:C}, Infor(Author/Size): {GetAdditionalInfo()}";
         }
     }
 }

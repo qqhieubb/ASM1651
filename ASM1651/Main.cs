@@ -54,35 +54,26 @@ namespace ASM1651
                                     admin.DisplayAvailableProducts(Products);
                                     break;
                                 case "2":
-                                    Console.WriteLine("Not Available Because You Are ADMIN ");
+                                    admin.AddProduct(Products);
+                                  
+                                    SaveProductsToFile("C:\\Users\\Dell\\source\\repos\\ASM1651\\ASM1651\\products.txt", Products);
                                     break;
+                                    
                                 case "3":
-                                    Console.WriteLine("Not Available Because You Are ADMIN ");
+                                    admin.RemoveProduct(Products);
+                                   
+                                    SaveProductsToFile("C:\\Users\\Dell\\source\\repos\\ASM1651\\ASM1651\\products.txt", Products);
                                     break;
                                 case "4":
-                                    Console.WriteLine("Not Available Because You Are ADMIN ");
+                                   admin.UpdateProduct(Products);
+                                    SaveProductsToFile("C:\\Users\\Dell\\source\\repos\\ASM1651\\ASM1651\\products.txt", Products);
                                     break;
-                                case "5":
-                                    Console.WriteLine("Not Available Because You Are ADMIN ");
-                                    break;
+                                
                                 case "6":
                                     Environment.Exit(0);
                                     break;
-                                case "7":
-                                    admin.AddProduct(Products);
-                                    Console.WriteLine("Product added.");
-                                    SaveProductsToFile("products.txt", Products);
-                                    break;
-                                case "8":
-                                    admin.RemoveProduct(Products);
-                                    Console.WriteLine("Product removed.");
-                                    SaveProductsToFile("products.txt", Products);
-                                    break;
-                                case "9":
-                                    admin.UpdateProduct(Products);
-                                    Console.WriteLine("Product updated.");
-                                    SaveProductsToFile("products.txt", Products);
-                                    break;
+                                                                    
+                                  
                                 default:
                                     Console.WriteLine("Invalid choice. Please try again.");
                                     break;
@@ -97,17 +88,22 @@ namespace ASM1651
                                     customer.DisplayAvailableProducts(Products);
                                     break;
                                 case "2":
+                                    customer.CreateCart();
+                                    Console.WriteLine("New cart created.");
+                                    break;
+
+                                case "3":
                                     customer.AddToCart(Products);
                                     Console.WriteLine("Product added to cart.");
                                     break;
-                                case "3":
+                                case "4":
                                     customer.RemoveFromCart();
                                     Console.WriteLine("Product removed from cart.");
                                     break;
-                                case "4":
+                                case "5":
                                     customer.ViewCart();
                                     break;
-                                case "5":
+                                case "8":
                                     customer.Checkout();
                                     break;
                                 case "6":

@@ -21,7 +21,6 @@ namespace ASM1651
             Console.WriteLine("2. Add a product");
             Console.WriteLine("3. Remove a product");
             Console.WriteLine("4. Update a product");
-            Console.WriteLine("5. Search for a product");
             Console.WriteLine("6. Exit");
         }
 
@@ -58,7 +57,7 @@ namespace ASM1651
                 string size = additionalInfo;
                 product = new Clothing(productId, productName, productPrice, size);
             }
-                                            
+            Program.Products.Add(product);
             Console.WriteLine("Product added.");
         }
 
@@ -70,6 +69,7 @@ namespace ASM1651
             if (productToRemove != null)
             {
                 products.Remove(productToRemove);
+
                 Console.WriteLine("Product removed.");
             }
             else
@@ -91,6 +91,10 @@ namespace ASM1651
                 decimal newPrice = Convert.ToDecimal(Console.ReadLine());
                 Console.Write("Enter new additional info: ");
                 string newAdditionalInfo = Console.ReadLine();
+
+                productToUpdate.Name = newName;
+                productToUpdate.Price = newPrice;
+                productToUpdate.UpdateAdditionalInfo(newAdditionalInfo);
                 Console.WriteLine("Product updated.");
             }
             else
@@ -98,5 +102,7 @@ namespace ASM1651
                 Console.WriteLine("Product not found.");
             }
         }
+
+        
     }
 }

@@ -21,10 +21,11 @@ namespace ASM1651
             base.DisplayMenu();
             Console.WriteLine("========== CUSTOMER MENU ==========");
             Console.WriteLine("1. Display available products");
-            Console.WriteLine("2. Add a product to cart");
-            Console.WriteLine("3. Remove a product from cart");
-            Console.WriteLine("4. View cart");
-            Console.WriteLine("5. Checkout");
+            Console.WriteLine("2. Create Cart");
+            Console.WriteLine("3. Add a product to cart");
+            Console.WriteLine("4. Remove a product from cart");
+            Console.WriteLine("5. View cart");
+            Console.WriteLine("8. Checkout");
             Console.WriteLine("6. Exit");
         }
 
@@ -37,6 +38,14 @@ namespace ASM1651
             }
         }
 
+
+        public void CreateCart()
+        {
+            int newCartId = Carts.Count + 1;
+            Cart newCart = new Cart(newCartId);
+            Carts.Add(newCart);
+            Console.WriteLine("New cart created with ID: " + newCartId);
+        }
         public void AddToCart(List<Product> products)
         {
             Console.Write("Enter product ID to add to cart: ");

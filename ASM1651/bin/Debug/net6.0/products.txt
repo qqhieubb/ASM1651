@@ -8,4 +8,5 @@
 8,Sach tap gym cho cau thu,30,Adama Traore
 9,Giao an re bong nang cao,55,Kaoru Mitoma
 10,Huong dan thu mon cach choi chan,33,Manuel Neuer
-13,Ao san nha Real 22-23,67.32,Con size M,L. Het size XL,XXL
+12,Sach day chuyen bong,44,Bruno Fernandes and Kevin De Bruyne
+13,Ao san nha Real Madrid 21-22,43.62,L
